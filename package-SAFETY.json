@@ -1,0 +1,24 @@
+{
+  "name": "rebass-types-temp",
+  "version": "1.0.0",
+  "description": "temporary rebass 4.x typescript typings",
+  "main": "index.js",
+  "repository": "https://github.com/theednaffattack/rebass-types-temp",
+  "author": "Eddie Naff",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@emotion/core": "*",
+    "@styled-system/css": "^5.0.23",
+    "react": "^16.10.1",
+    "rebass": "^4.0.6",
+    "styled-components": "^4.4.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.4",
+    "@types/rebass": "^4.0.1",
+    "@types/styled-components": "^4.1.19",
+    "@types/styled-system": "^5.1.2",
+    "@types/styled-system__css": "^5.0.4"
+  }
+}

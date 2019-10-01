@@ -1,5 +1,6 @@
 import * as React from "react";
 import styled, { css } from "styled-components";
+import { css as emotionCss } from "@emotion/core";
 import {
   Box,
   Flex,
@@ -34,7 +35,14 @@ const boxCss = css`
   color: white;
 `;
 
+const emotionCssStyle = css`
+  background: purple;
+  color: white;
+`;
+
 const CssBox = () => <Box css={boxCss} />;
+
+const EmotionCssBox = () => <Box css={emotionCssStyle} />;
 
 export default () => (
   <Box
@@ -96,6 +104,8 @@ export default () => (
       </Box>
 
       <CssBox />
+
+      <EmotionCssBox />
     </Flex>
   </Box>
 );

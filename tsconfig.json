@@ -16,5 +16,5 @@
     "noEmit": true,
     "forceConsistentCasingInFileNames": true
   },
-  "files": ["index.d.ts", "rebass-tests.tsx"]
+  "files": ["index.d.ts"]
 }
